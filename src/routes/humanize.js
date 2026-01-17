@@ -1,7 +1,7 @@
 import express from "express";
 import OpenAI from "openai";
 import rateLimiter from "../middleware/rateLimit.js";
-import buildPrompt from "../utils/promptBuilder.js";
+import buildPrompt from "./utils/promptBuilder.js";
 
 const router = express.Router();
 
